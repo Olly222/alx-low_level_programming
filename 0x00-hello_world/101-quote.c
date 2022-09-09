@@ -10,8 +10,7 @@ int main(void)
     return (1);
 }
 
-Now for BETTY after cloning Betty and moving to /bin/
-touch testBetty.c
+
 #include <stdio.h>
 
 int main(void)
