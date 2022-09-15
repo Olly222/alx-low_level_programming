@@ -1,13 +1,13 @@
 #include "main.h"
+
 /**
- * print_triangle - print triangle
- * @size: triangle size
- * Return: void
+ * print_triangle - check for a digit
+ * @size : integer type
+ * Return:void
  */
 
 void print_triangle(int size)
 {
-	int i = 1, ii
 	int i = 1, ii;
 
 	while (i <= size && size > 0)
@@ -16,7 +16,6 @@ void print_triangle(int size)
 		while (ii < size - i)
 		{
 			_putchar(' ');
-			ii = 0;
 			ii++;
 		}
 		ii = 0;
@@ -25,6 +24,7 @@ void print_triangle(int size)
 			_putchar('#');
 			ii++;
 		}
+
 		_putchar('\n');
 		i++;
 	}

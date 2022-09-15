@@ -1,13 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - fizz-buzz test
- * Return: 0
+ * main - Fizz Buzz code
+ *
+ * Return: void
  */
+
 int main(void)
 {
 	int i = 1;
 
-	while (i <= 109)
 	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
@@ -30,6 +32,7 @@ int main(void)
 		{
 			putchar(' ');
 		}
+
 		i++;
 	}
 	putchar('\n');
